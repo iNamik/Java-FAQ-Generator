@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template-config
+	applicationRoot = "."
+	templateRoot    = "."
+	tagDelimeter    = "CURLY"
+	useDefaultLib   = "true"
+	debug           = "false"
+>
+	<interpreter />
+<!--
+	<use-lib prefix="main" resource="com/inamik/template/lib/main/inamik_template_lib-main.xml" />
+-->
+	<use-lib prefix="xml" resource="com/inamik/template/lib/xml/inamik_template_lib-xml.xml" />
+</template-config>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************************************************
+* FAQ Generator XML
+*
+* I think this example file will eventually become the self-hosted FAQ for
+* the FAQ Generator project.
+*
+* We start with a FAQS element
+*
+* A master container element was needed, and 'faqs' seemed as good as anything
+* else.
+******************************************************************************
+-->
+<faqs>
+	<!--
+	**************************************************************************
+	* SECTION
+	*
+	* Defines a section to store related questions/answer pairs.
+	*
+	* The 'title' attribute names your section and will be displayed in the
+	* generated html.
+	*
+	* You can define as many section elements as you desire.
+	**************************************************************************
+	-->
+	<section title="Section1">
+		<!--
+		**********************************************************************
+		* FAQ
+		*
+		* Each question/answer pair is stored within a 'faq' element
+		* This is basically a convenient container element so that we can
+		* xpath our way to the question/answer pairs.
+		*
+		* You can define as many question/answer pairs as you desire.
+		**********************************************************************
+		-->
+		<faq>
+			<!--
+			******************************************************************
+			* QUESTION
+			*
+			* Stores the question portion of this question/answer pair.
+			*
+			* This is generally expected to contain plain text (no HTML) and
+			* be relatively short.
+			*
+			* You can use any amount of whitespace you desire, as the question
+			* text will be passed through the 'inTrim' filter before before
+			* it is output.
+			*
+			* The filter removes all leading and trailing whitespace, and also
+			* replaces all inner occurrences of one or more whitespace
+			* characters with a single space (' ') character.
+			******************************************************************
+			-->
+			<question>
+				Am I the first FAQ queston?
+			</question>
+
+			<!--
+			******************************************************************
+			* Stores the answer portion of this question/answer pair.
+			*
+			* This can contain text, HTML, XHTML, etc - Pretty much anything.
+			* The '<![CDATA[' wrapper ensures that you can enter any text you
+			* desire. I strongly recommend that you not remove it.
+			*
+			* The text will be wrapped in a <div> element in the output file.
+			*
+			* You can use any amount of whitespace you desire, as the answer
+			* text will be passed through the 'trim' block filter before it is
+			* output.
+			*
+			* The filter will 'trim' leading and trailing whitespace from
+			* the entire block of text, and will also trim each line of text.
+			*
+			* A (current) side effect of this is that any indentation you add
+			* to the text (to make it look pretty in this file) will be lossed
+			* in the generated output.
+			******************************************************************
+			-->
+			<answer>
+			<![CDATA[
+				<p>
+					Yes, you are the first faq question.
+				</p>
+				<p>
+					Furthermore, if you weren't the first question,
+					I probably wouldn't tell you.
+				</p>
+			]]>
+			</answer>
+		</faq>
+	</section>
+	<section title="Section2">
+		<faq>
+			<question>
+				Am I the last FAQ question?
+			</question>
+			<answer>
+			<![CDATA[
+				<p>
+					No, you are not the last FAQ question.
+				</p>
+				<p>
+					Furthermore, if you were the last question,
+					I probably wouldn't tell you.
+				</p>
+			]]>
+			</answer>
+		</faq>
+	</section>
+</faqs>

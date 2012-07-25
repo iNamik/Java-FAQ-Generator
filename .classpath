@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/com.inamik.template.lib.xml-0.50.0.jar"/>
+	<classpathentry kind="lib" path="lib/jsr173_1.0_api.jar"/>
+	<classpathentry kind="lib" path="lib/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="lib/com.inamik.template-0.63.2a.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-core-1.8.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jaxb-api-2.2.1_20100511.jar"/>
+	<classpathentry kind="lib" path="lib/jaxb-impl-2.2.1_20100511.jar"/>
+	<classpathentry kind="lib" path="lib/jaxen-1.1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

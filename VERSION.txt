@@ -1,0 +1,20 @@
+iNamik FAQ Generator for Java v@build.version@ (@build.date@)
+
+Version History
+===============
+
+Changes in v0.50.2
+
+	* Initial GitHub Commit
+
+	* Fleshed-out README
+
+	* Updated dpenedant JAR verions to match iNamik Template Engine
+
+Changes in v0.50.1
+
+	*	Minor text changes
+
+Changes in v0.50.0
+
+	*	All development up to this point :)
