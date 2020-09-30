@@ -42,7 +42,7 @@ jar files found in the 'lib' folder.
 There are 2 helper scripts (faq.bat, faq.sh) to get you started.
 
 
-REQUIREMENTS
+REQUIREMENTS OF PROJECT
 ------------
 
 This project has the following dependencies:
@@ -60,7 +60,7 @@ This project has the following dependencies:
 * JSR173 API (1.0)
 
 
-DOWNLOAD
+DOWNLOAD LINKS
 --------
 
 * View the source code on [GitHub](https://github.com/iNamik/Java-FAQ-Generator)
